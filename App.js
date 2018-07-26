@@ -8,7 +8,6 @@ output = new Date().toString();
 let msg = document.querySelector("#message");
 msg.innerHTML = output;
 
-
 // Strings
 const learning = "Learning JavaScript is Great!";
 output = learning.length;
@@ -16,7 +15,6 @@ output = learning.indexOf("JavaScript");
 output = learning.substr(9,10);
 output = learning.split(" ");
 console.log(output);
-
 
 // Arrays
 let cart = ['A', 'B', 'C'];
@@ -94,3 +92,16 @@ output = today.getMinutes();
 // output = today.getFullYear();
 // output = today.setFullYear(2018);
 console.log(output);
+
+
+
+//*******************************************************************************************************************
+// DOM Scripting
+//*******************************************************************************************************************
+
+let element;
+element = document.all;
+console.log(element[5]);
+
+console.log(document.querySelector("#div"));
+console.log(document.querySelector(".top"));
